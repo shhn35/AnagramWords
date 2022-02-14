@@ -12,7 +12,6 @@ public class Anagrams {
     public void printAnagrams(String fileName){
         File file = new File(fileName);
         Path currentDir = Paths.get(".");
-        System.out.println(currentDir.toAbsolutePath()+fileName);
 
         Map<String, List<String>> map = new TreeMap<>();
         try (Stream<String> stream = Files.lines(Paths.get(String.valueOf(currentDir.toAbsolutePath()),fileName))) {

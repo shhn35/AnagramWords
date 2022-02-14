@@ -1,4 +1,6 @@
-# The solution
+# Running the solution
+For running the solution, simply run the Main class!
+# 1. The solution
 Given we have a list of words, which might be unlimited and unique, I utilized a **TreeMap** data structure.
 ### Why TreeMap?
 - **TreeMap** provides a Map which the keys store in **Sorted** ascending order.
@@ -66,9 +68,8 @@ aabq:[baqa, qaab, qbaa]
 ```
 ##### Reduce phase
 - After processing all chunks, there are a limited number of intermediate files, which are **SOERTED** ascendingly (based on the **key**). The **Sorted** feature comes from using **TreeMap** in the main algorithm.
-- Then, by implementing the **merge sorted arrays**, we can read all the intermediate files (chunks) and merge the same **keys** and the print the result.
+- Then, by implementing the **merge sorted arrays**, we can read all the intermediate files (chunks) and merge the same **keys**, through all files (chunks), and then print the result.
 - **merge sorted arrays** gets a couple of arrays which are sorted. Then, merge them together in order to form one sorted large array. The time complexity of **merge sorted arrays** is **O(n)**, where *n* is the total number of elements in all arrays.
-
 
 - **Note:** If the details of the **merge sorted arrays** is required, I will express it later as well.
 

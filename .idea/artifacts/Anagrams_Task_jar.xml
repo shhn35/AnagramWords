@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Anagrams Task:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Anagrams_Task_jar</output-path>
+    <root id="archive" name="Anagrams Task.jar">
+      <element id="module-output" name="Anagrams Task" />
+    </root>
+  </artifact>
+</component>
